@@ -1,0 +1,69 @@
+Start - 05/09/2018 20:17:32
+
+Enumerating current people picker settings...
+
+Name                                                 Value                                               
+----                                                 -----                                               
+SearchActiveDirectoryDomains                         {}                                                  
+ActiveDirectoryCustomQuery                                                                               
+ActiveDirectoryCustomFilter                                                                              
+OnlySearchWithinSiteCollection                       False                                               
+PeopleEditorOnlyResolveWithinSiteCollection          False                                               
+DistributionListSearchDomains                        {}                                                  
+ActiveDirectorySearchTimeout                         00:00:30                                            
+NoWindowsAccountsForNonWindowsAuthenticationMode     True                                                
+ServiceAccountDirectoryPaths                         {}                                                  
+ReferralChasingOption                                None                                                
+ActiveDirectoryRestrictIsolatedNameLevel             False                                               
+AllowLocalAccount                                    True                                                
+ShowUserInfoListSuggestionsInClaimsMode              True                                                
+UpgradedPersistedProperties                          {}                                                  
+
+
+Would you like to modify 'ActiveDirectoryCustomQuery' property? This is used to specify the LDAP query. [y
+|n]: n
+
+
+Would you like to modify 'ActiveDirectoryCustomFilter' property? This is used to specify the LDAP filter t
+o go with the custom query. [y|n]: n
+
+
+Would you like to modify 'PeopleEditorOnlyResolveWithinSiteCollection' property? This is used to specify w
+hether people picker will search only within the UserInfoList of the site collection or within the entire 
+AD. [y|n]: n
+
+
+Would you like to modify 'SearchActiveDirectoryDomains' property? This is to specify the AD domains and/or
+ forests that the people picker should query. [y|n]: y
+First, specify a key (new text value) that will be used to encrypt the credential(s) used to query the dom
+ains/forests you will specify. You can set a new value every time you modify this property.
+Setting encryption key...Done
+Clear current settings and set to default value?[y|n]: n
+Specify the full DNS name of the domain or forest (e.g. murphyoilcorp.com): murphyoilcorp.com
+Is this an AD forest? [y|n]: y
+Specify the login name of the account that can query this domain/forest (e.g. moc\john.doe): hou\prabhvx
+Adding search domain/forest 'murphyoilcorp.com' to people picker...Done
+Add more domains/forests to search? [y|n]: y
+Specify the full DNS name of the domain or forest (e.g. murphyoilcorp.com): murphyoilcorp.org
+Is this an AD forest? [y|n]: y
+Specify the login name of the account that can query this domain/forest (e.g. moc\john.doe): hou\prabhvx
+Adding search domain/forest 'murphyoilcorp.org' to people picker...Done
+Add more domains/forests to search? [y|n]: n
+
+Enumerating new people picker settings...
+SearchActiveDirectoryDomains                         {murphyoilcorp.com, murphyoilcorp.org}              
+ActiveDirectoryCustomQuery                                                                               
+ActiveDirectoryCustomFilter                                                                              
+OnlySearchWithinSiteCollection                       False                                               
+PeopleEditorOnlyResolveWithinSiteCollection          False                                               
+DistributionListSearchDomains                        {}                                                  
+ActiveDirectorySearchTimeout                         00:00:30                                            
+NoWindowsAccountsForNonWindowsAuthenticationMode     True                                                
+ServiceAccountDirectoryPaths                         {}                                                  
+ReferralChasingOption                                None                                                
+ActiveDirectoryRestrictIsolatedNameLevel             False                                               
+AllowLocalAccount                                    True                                                
+ShowUserInfoListSuggestionsInClaimsMode              True                                                
+UpgradedPersistedProperties                          {}                                                  
+
+Done - 05/09/2018 20:21:40
