@@ -1,0 +1,872 @@
+ErrorID,hrResult,ErrorLevel,MarkDelete,ErrorMsg
+0,0,0,0,Crawled
+1,266755,0,0,The content did not change.
+2,1,1,0,Deleted by the gatherer
+3,-2147156712,2,0,Document content was updated out of order by 2 or more crawls.
+4,-2147218169,1,1,Item not crawled due to one of the following reasons: Preventive crawl rule; Specified content source hops/depth exceeded; URL has query string parameter; Required protocol handler not found; Preventive robots directive.
+5,-2147218168,1,0,The specified address was excluded from the index. The site hops or page depth restrictions may have to be modified to include this address.
+6,265520,1,0,The filtering process could not load the item. This is possibly caused by an unrecognized item format or item corruption.
+7,265582,1,0,This item comprises multiple parts and/or may have attachments. Not all of these parts were indexed. They may either be invalid or deliberately skipped (e.g. images). The remote server may also have been unresponsive while indexing these parts.
+8,265616,1,0,"The content for this address was excluded by the crawler because this item was marked with a no-index meta-tag. To index this item, remove the meta-tag and recrawl."
+9,265626,1,0,This document is a child of another document.  It will not be cataloged separately.
+10,-2147217977,1,0,Removed from the search index by Admin.
+11,265674,1,0,The URL was permanently moved.
+12,-2147217948,1,0,This URL is part of a host header SharePoint deployment and the search application is not configured to crawl individual host header sites. This will be crawled as a part of the host header Web application if configured as a start address.
+13,266761,1,0,The filtering process terminated because the item content reached the maximum filter output limit. Check that the filter does not generate a large amount of data relative to the size of the document. The item's content may be too large to index.
+14,266764,1,0,The file reached the maximum download limit. Check that the full text of the document can be meaningfully crawled.
+15,266810,1,0,This item and all items under it will not be crawled because the owner has set the NoCrawl flag to prevent it from being searchable
+16,-2147156723,1,1,This URL uses V3 format and will be deleted. This will be recrawled using V4 format
+17,-2147156722,1,1,The object was deleted.
+18,327456,1,0,Item format unsupported.
+19,327457,1,0,The document format is not recognized by the filter.
+20,327458,1,0,Processing this item failed because the parser could not recognize the content's encoding.
+21,327459,1,0,This item was truncated because the parsed output was greater than the maximum number of allowed characters.
+
+22,327460,1,0,File is too large to filter.
+23,327461,1,0,The file is in an unsupported version.
+24,327462,1,0,File was not filtered due to password protection.
+25,327463,1,0,This item was partially parsed.
+The item has been truncated in the index because it exceeds the maximum size.
+
+26,327464,1,0,The item has been truncated in the index because it exceeds the maximum size.
+27,-2147156682,1,0,The document and its children needs to be reindexed as SharePoint Version was upgraded.
+28,-2147216848,1,0,The claims cookie used by the crawler has expired.
+29,-2130575324,2,0,The backend SQL Server for the SharePoint site being crawled is not responsive.
+30,-2130575247,2,0,Access to this SharePoint site has been blocked. Please contact the administrator to resolve this problem.
+31,-2147319765,2,0,Unknown error occurred while loading the .NET assemblies during the crawl. This item will be retried in the next incremental crawl.
+32,-2147024882,2,0,Ran out of memory.
+33,-2147024825,2,0,No more connections can be made to this remote computer at this time because there are already as many connections as the computer can accept.
+34,-2147024703,2,0,%1 is not a valid Win32 application.
+35,-2147023783,2,0,Crawling of this item failed because the item contained Unicode characters that could not be processed by the crawler.
+36,-2147023570,2,0,Item was not crawled because of a password change. Update password and retry crawling.
+37,-2147023173,2,0,The remote server is too busy to respond to the crawler.
+38,-2147217887,2,0,A database error occurred on the repository when crawling this item
+39,-2147215872,2,0,The call failed for an unknown reason.
+40,-2147215871,2,0,The parameter is not valid.
+41,-2147215870,2,0,The query restriction could not be parsed.
+42,-2147215869,2,0,A sort order that is not valid was requested.
+43,-2147215868,2,0,A categorization order that is not valid was requested.
+44,-2147215867,2,0,"The query you typed contains only words to exclude from results. Type one or more search words to include, and then retry your search."
+45,-2147215866,2,0,The query was too complex to be executed.
+46,-2147215865,2,0,The query exceeded its execution time limit.
+47,-2147215864,2,0,One or more columns in the output column list is a duplicate.
+48,-2147215863,2,0,One or more columns in the output column list are not valid.
+49,-2147215862,2,0,The directory name is not valid.
+50,-2147215861,2,0,Specified directory is on a removable medium.
+51,-2147215860,2,0,"The catalog is in a state where it can continue crawling, but queries are not allowed."
+52,-2147215859,2,0,A clause of the query contained only ignored words and all the relevant documents specified are not found.
+53,-2147215858,2,0,All the relevant documents specified in the query are not found.
+54,-2147215857,2,0,A clause of the query contained only ignored words and no data is found in the relevant documents under the specified properties.
+55,-2147215856,2,0,No relevant data is found in the relevant documents under the specified properties for this query.
+56,-2147215855,2,0,The same relevant document is specified multiple times.
+57,-2147215854,2,0,The reldoc specification is not supported.
+58,-2147215853,2,0,The document identifier specified is not valid.
+59,-2147215852,2,0,The server version is older and cannot handle this query
+60,-2147215851,2,0,The scopes should be identical in all the components of a coalesce query
+61,-2147215850,2,0,The order by list should be identical in all the components of a coalesce query
+62,-2147215849,2,0,Coalesce is either not used properly or this form is not supported at present: check possible mixing of grouping with coalesce
+63,-2147215848,2,0,Queries are disabled because the catalog is being upgraded.  Try your query again in a few minutes.
+64,-2147215847,2,0,A clause of the query contained only excluded terms.
+65,-2147215846,2,0,Could not perform negation because there are no positive candidates.  Try switching the QP strategy.
+66,-2147215791,2,0,Cannot open file.
+67,-2147215790,2,0,Read error in file.
+68,-2147215789,2,0,Expecting property name.
+69,-2147215788,2,0,Expecting type specifier.
+70,-2147215787,2,0,Unrecognized type.
+71,-2147215786,2,0,Expecting integer.
+72,-2147215785,2,0,Expecting closing parenthesis.
+73,-2147215784,2,0,Expecting GUID.
+74,-2147215783,2,0,The guid is not valid.
+75,-2147215782,2,0,Expecting property specifier.
+76,-2147215781,2,0,Failed to set property name.
+77,-2147215780,2,0,Duplicate property name.
+78,-2147215779,2,0,DBTYPE_VECTOR or DBTYPE_BYREF used alone.
+79,-2147215778,2,0,"DBTYPE_BYREF must be used with DBTYPE_STR, DBTYPE_WSTR, DBTYPE_GUID
+ or DBTYPE_UI1 types."
+80,-2147215776,2,0,Unexpected NOT operator.
+81,-2147215775,2,0,Expecting integer.
+82,-2147215774,2,0,Expecting real number.
+83,-2147215773,2,0,Expecting date.
+84,-2147215772,2,0,Expecting currency.
+85,-2147215771,2,0,Expecting GUID.
+86,-2147215770,2,0,Expecting closing bracket ']'.
+87,-2147215769,2,0,Expecting closing parenthesis ')'.
+88,-2147215768,2,0,Expecting property name.
+89,-2147215767,2,0,Not yet implemented.
+90,-2147215766,2,0,Expecting phrase.
+91,-2147215765,2,0,Unsupported property type.
+92,-2147215764,2,0,Expecting regular expression.
+93,-2147215763,2,0,Regular expressions require a property of type string.
+94,-2147215762,2,0,Invalid literal.
+95,-2147215761,2,0,No such property.
+96,-2147215760,2,0,Expecting end of string.
+97,-2147215759,2,0,Expecting comma.
+98,-2147215758,2,0,Unexpected end of string.
+99,-2147215757,2,0,Weight must be from 1 through 1000 in short form queries and from 0.0 through 1.0 in long form queries.
+100,-2147215756,2,0,A property that is not valid was found in the sort specification.
+101,-2147215755,2,0,A sort order that was not valid was specified.  Only [a] and [d] are supported.
+102,-2147215754,2,0,Couldn't convert a virtual path to a physical path.
+103,-2147215753,2,0,An unsupported grouping type was specified.
+104,-1073473928,2,0,A CiCodepage that is not valid was specified.
+105,-2147215750,2,0,Invalid query.
+106,-2147215749,2,0,Invalid rank method.
+107,-2147215748,2,0,Coerce values must be from -1000 through 1000.
+108,-2147215747,2,0,Different operator properties make the query non-associative.
+109,-2147215746,2,0,Threshold must be from 0 through 1000.
+110,-2147215745,2,0,Weight affect must be positive.
+111,-2147215743,2,0,"The system is running out or one of more resources needed for filtering, most likely memory."
+112,-2147215742,2,0,A critical error occurred during document filtering.  Consult system administrator.
+113,-2147215741,2,0,Documents not stored in content index because partition has been deleted.
+114,-2147215740,2,0,Documents not stored in content index because update of changelist failed.
+115,-2147215738,2,0,Commit of wordlist failed.  Data not available for query.
+116,-2147215737,2,0,No wordlist is being constructed.  May happen after fatal filter error.
+117,-2147215736,2,0,During document filtering the limit on buffers has been exceeded.
+118,-2147215711,2,0,Retrieval of hits as monikers is not supported (by filter passed into Init).
+119,-2147215710,2,0,Retrieval of hits as filter regions is not supported (by filter passed into Init).
+120,-2147215568,2,0,File is too large to filter.
+121,-1073473740,2,0,The content index is corrupt. A content scan will to be scheduled after chkdsk or autochk is run.
+122,-2147215562,2,0,A file is already open. Cannot open another one while a file is open.
+123,-2147215561,2,0,The file is not reachable.
+124,-2147215560,2,0,The document is in use by another process.
+125,-2147215559,2,0,The document is not opened.
+126,-2147215557,2,0,There is no property with the given GUID.
+127,-2147215555,2,0,The document is offline.
+128,-2147215554,2,0,The document was too large to filter in its entirety.  Portions of the document were not emitted.
+129,-2147215488,2,0,End of text reached in text source.
+130,-2147215486,2,0,Feature only available in query mode.
+131,-2147215485,2,0,Buffer too small to hold composed phrase.
+132,-2147215484,2,0,Language database/cache file could not be found.
+133,-2147215483,2,0,Initialization of word breaker failed.
+134,-2147215472,2,0,Feature only available in query mode.
+135,-2147215471,2,0,Feature only available in index mode.
+136,-2147215470,2,0,Attachment type beyond valid range.
+137,-1073473536,2,0,The content index is corrupt.
+138,-1073473535,2,0,The content index meta data is corrupt.
+139,-1073473534,2,0,The content index partition is not valid.
+140,-1073473533,2,0,The priority is not valid.
+141,-1073473532,2,0,There is no starting key.
+142,-1073473531,2,0,The content index is out of index ids.
+143,-1073473530,2,0,There is no catalog.
+144,-1073473529,2,0,The filter buffer is corrupt.
+145,-1073473528,2,0,The index is not valid.
+146,-1073473527,2,0,Inconsistency in property store detected.
+147,-2147215350,2,0,The object is already initialized.
+148,-2147215349,2,0,The object is not initialized.
+149,-2147215348,2,0,The buffer is too small.
+150,-2147215347,2,0,The given property is not cached.
+151,-2147215345,2,0,The object is not in a valid state.
+152,-2147215344,2,0,Filtering is disabled in this content index.
+153,-2147215343,2,0,The disk is full and the specified operation cannot be done.
+154,-2147215342,2,0,The request could not be completed because the process and/or catalog are being shutdown
+155,-2147215341,2,0,The workid is not valid.
+156,-2147215339,2,0,The object was not found.
+157,-2147215338,2,0,The passed-in property id is not supported.
+158,-2147215337,2,0,There were two notifications for the same workid.
+159,-2147215336,2,0,A document update was rejected because updates were disabled.
+160,-2147215335,2,0,The combination of flags specified is not valid.
+161,-2147215334,2,0,The incremental data given to Load is not valid. It may be out of sequence.
+162,-2147215333,2,0,A sharing or locking violation caused a failure.
+163,-2147215332,2,0,A logon permission violation caused a failure.
+164,-2147215331,2,0,"The catalog does not exist or is currently unavailable. Please retry the action again later and if this symptom persists, contact the system administrator."
+165,-2147215330,2,0,Page size is not an integral multiple of the sector size of the volume where index is located.
+166,-2147215329,2,0,Service is too busy.
+167,-2147215328,2,0,Service is not running.
+168,-1073473503,2,0,The content index data on disk is for the wrong version.
+169,-1073473502,2,0,Enumeration has already been started for this query.
+170,-1073473501,2,0,The specified variable length property is too large for the property cache.
+171,-1073473500,2,0,Filtering of object was aborted by client.
+172,-2147215321,2,0,Mismatch in cardinality of machine(s)/catalog(s)/scope(s).
+173,-2147215320,2,0,The disk has reached its configured space limit.
+174,-2147215319,2,0,Groupby clause is not supported on a distributed query.
+175,-2147215318,2,0,The property store is not configured to handle auxiliary metadata storage.
+176,-1073473491,2,0,The forward index is corrupt.
+177,-1073473490,2,0,Catalog was created with different diacritic settings.
+178,-1073473489,2,0,The thesaurus file is not valid.
+179,-1073473488,2,0,Unicode byte order mark (0xFEFF) missing at the beginning of thesaurus file.
+180,-1073473486,2,0,Ranking model XML is not valid.
+181,-1073473485,2,0,Default ranking model is missing.
+182,-1073473484,2,0,More than one default ranking model exists.
+183,-1073473483,2,0,The same ID is used by different ranking models.
+184,-1073473481,2,0,Requested ranking model does not exist.
+185,-2147215616,2,0,No more chunks of text available in object.
+186,-2147215615,2,0,No more text available in chunk.
+187,-2147215614,2,0,No more property values available in chunk.
+188,-2147215613,2,0,Unable to access object.
+189,-2147215611,2,0,No text in current chunk.
+190,-2147215610,2,0,No values in current chunk.
+191,-2147215609,2,0,Unable to bind IFilter for embedded object.
+192,-2147215608,2,0,Unable to bind IFilter for linked object.
+193,-2147215605,2,0,File was not filtered due to password protection.
+194,-2147215604,2,0,The document format is not recognized by the filter.
+195,-2147215603,2,0,Flushes the buffer from the daemon
+196,-2147212800,2,0,This scope has no default namespace.  Add a default namespace before continuing.
+197,-2147212799,2,0,The SXQL is not valid.
+198,-2147212798,2,0,An SXQL name no longer exists.
+199,-2147212797,2,0,The XML property configuration file cannot be read. Restore it to a valid state.
+200,-2147212796,2,0,The XML property configuration file is not in Unicode. The file must be saved as a Unicode file.
+201,-2147213056,2,0,The specified application name is not valid. Check to see whether a search application with that name already exists.
+202,-2147213055,2,0,The specified search application name was not found. It may have already been deleted.
+203,-2147213054,2,0,The search application name already exists. Use a different name.
+204,-2147213053,2,0,"The specified content index was not found. Check to see if it was deleted, or if there are errors in your application code."
+205,-2147213052,2,0,The content index cannot be deleted while the search service is stopped. Restart the search service and try again.
+206,-2147220736,2,0,A network read or write operation has failed.
+207,-2147220733,2,0,The network connection was lost. Try the query again.
+208,-2147220728,2,0,The parameters passed were not valid.
+209,-2147220727,2,0,Another operation is already in progress on this socket. Try the query again.
+210,-2147216381,2,0,"The search service is running as a local System service. To access Exchange documents, check that the search service is running in a user account with administrative privileges on the Exchange server."
+211,-2147216383,2,0,The Exchange search provider cannot be initialized. You may have to reinstall the application.
+212,-2147216382,2,0,The security provider was not initialized. You may have to reinstall the application.
+213,-2147216129,2,0,Access is denied. You may not have sufficient privileges to perform the operation.
+214,-2147220480,2,0,There is no more data to return. 
+215,-2147220479,2,0,The requested content index name is not valid. Use a valid content index name.
+216,-2147220478,2,0,The requested content index is disabled on the search server. Contact the system administrator to enable the content index. Check the event log for possible errors.
+217,-2147220477,2,0,The query was cancelled at the user's request.
+218,-2147220476,2,0,The request code is not valid.
+219,-2147220475,2,0,The request data is not valid for the given request type.
+220,-2147220474,2,0,"The request cannot be processed, because the system is low on resources. Try again later, or contact your system administrator to free up system resources."
+221,-2147220473,2,0,The request or function call is out of sequence. Check for programming errors.
+222,-2147220472,2,0,The query text is too long. 
+223,-2147220471,2,0,The request cannot be processed because of an error in the search server.
+224,-2147220470,2,0,The configuration file for the content index is not valid. 
+225,-2147220469,2,0,The search server cannot create the backup configuration file. 
+226,-2147220464,2,0,The search server cannot find one or more catalog files. Check the event log for related failures.
+227,-2147220463,2,0,"The SetStatus operation cannot be completed, because another SetStatus operation is already in progress. Try again after the current operation is completed."
+228,-2147220462,2,0,"The content index cannot be created, because another content index with the same name already exists. Create the content index using a different name."
+229,-2147220461,2,0,"The content index cannot be created, because the limit on the number of indexes was reached. "
+230,-2147220460,2,0,The search server cannot read or write to the registry. Check that the search server is running with administrative privileges.
+231,-2147220459,2,0,The content index cannot be removed in the current state. Disable and remove the content index.
+232,-2147220458,2,0,The tag database is not valid. Contact your system administrator.
+233,-2147220457,2,0,The content index name is in the wrong format. Use a name without spaces or punctuation.
+234,-2147220456,2,0,The configuration file is not the correct type.
+235,-2147220455,2,0,There is a mismatch in the protocol between the search service and the client. Install the correct version of the client.
+236,-2147220454,2,0,The index is already enabled. 
+237,-2147220450,2,0,The requested parameter is unknown.
+238,-2147220449,2,0,The buffer is too small. 
+239,-2147220448,2,0,The parameter value is out of range. 
+240,-2147220447,2,0,The content index is already disabled.
+241,-2147220446,2,0,"The operation cannot be completed, because one or more queries failed to terminate in a timely manner. "
+242,-2147220445,2,0,The result is not valid. 
+243,-2147220444,2,0,The registry data cannot be written. Check that the search service is running with administrator privileges.
+244,-2147220442,2,0,The content index cannot be created because an index with the same name already exists on the search server. Create the content index using a different name.
+245,-2147220441,2,0,The content index cannot be enabled because its propagation version cannot be verified against the dedicated index server.  This can occur when either the dedicated index server is offline or the content index is out-of-date.  
+246,-2147220223,2,0,The requested operation is not valid at this time. 
+247,-2147220222,2,0,There is no more data to return. 
+248,-2147220221,2,0,"The query cannot be collated, because columns using the same name have different types. "
+249,-2147220220,2,0,Not enough buffer space is available to collate search results. 
+250,-2147220218,2,0,The result row is corrupted. 
+251,-2147220217,2,0,The search server did not return a column required for collation. 
+252,-2147220216,2,0,The database ID is a duplicate. 
+253,-2147220215,2,0,The data source merge exceeded the number of result columns. 
+254,-2147220214,2,0,No default index was set. 
+255,-2147220213,2,0,The maximum number of open provider connections was exceeded. 
+256,-2147219967,2,0,The limit on the number of search servers was reached. 
+257,-2147219966,2,0,The limit on the number of indexes was reached. 
+258,-2147219965,2,0,No query connections to the server can be established. 
+259,-2147219964,2,0,The requested content index is disabled. 
+260,-2147219963,2,0,The network timed out trying to acquire a connection to a search server. 
+261,-2147219962,2,0,The specified server cannot be found. 
+262,-2147219960,2,0,The Windows NT registry cannot be accessed. 
+263,-2147219959,2,0,The requested content index is empty or has not been added to the search server. 
+264,-2147219958,2,0,The query timed out. 
+265,-2147219957,2,0,The buffer area passed to the function is not large enough. 
+266,-2147219711,2,0,The query syntax is not valid. 
+267,-2147219710,2,0,The column type in the search query does not match the column type in the index. 
+268,-2147219709,2,0,The query type specified is unknown. 
+269,-2147219707,2,0,The number of columns requested exceeds the limit. 
+270,-2147219706,2,0,The query contained too many content index IDs. 
+271,-2147219705,2,0,The query start hit is larger than the total number of results. 
+272,-2147219704,2,0,The query contains too many terms. 
+273,-2147219703,2,0,No indexes were specified. 
+274,-2147219702,2,0,The query operation timed out. 
+275,-2147219701,2,0,The query specified sorting a non-sortable column. 
+276,-2147219700,2,0,The query specified searching a non-searchable column. 
+277,-2147219699,2,0,The query specified a nonexistent column. 
+278,-2147219698,2,0,The query data is not valid or is inconsistent. 
+279,-2147219697,2,0,A query term begins with a wildcard character. 
+280,-2147219696,2,0,A query term contains an embedded wildcard character that is not valid. 
+281,-2147219695,2,0,A wildcard term in the query does not contain a sufficiently long prefix. 
+282,-2147219693,2,0,The search server is unable to process the query. 
+283,-2147219692,2,0,The search criteria are too general or matched too many terms. 
+284,-2147219691,2,0,The query does not contain any meaningful restrictions. 
+285,-2147219689,2,0,The query did not specify any return columns. 
+286,-2147219688,2,0,The scopes specified for the query were incorrectly formatted. 
+287,-2147219687,2,0,The indexes specified for the query were incorrectly formatted. 
+288,-2147219686,2,0,The number of scopes or depths was not valid. 
+289,-2147219685,2,0,The operation is not valid in the current context. 
+290,-2147219684,2,0,The path supplied was not valid. 
+291,-2147219683,2,0,The log manager is not initialized. 
+292,-2147219682,2,0,An invalid interval was passed to the log manager. 
+293,-2147219681,2,0,No log manager was attached to the logger. 
+294,-2147218431,2,0,The configuration file attempted to load a reserved column. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+295,-2147218430,2,0,The configuration file cannot be found. Reinstall the application.
+296,-2147218429,2,0,The tag nesting configuration for the application is not valid.  Reinstall the application.
+297,-2147218428,2,0,The configuration file for the application contains a tag that is not valid.  Reinstall the application.
+298,-2147218427,2,0,The configuration file version number for the application is invalid.  Reinstall the application.
+299,-2147218426,2,0,"The output configuration file cannot be created. Stop and restart the system, and then reinstall the application."
+300,-2147218425,2,0,Data cannot be written to the output configuration file. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+301,-2147218424,2,0,The configuration file for the application contains invalid information. Reinstall the application.
+302,-2147218423,2,0,The configuration file type for the application is not recognized. Reinstall the application.
+303,-2147218422,2,0,The configuration file column data type for the application is not recognized. Reinstall the application.
+304,-2147218421,2,0,The noise word file cannot be created. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+305,-2147218420,2,0,There was an error writing to the temporary noise word file. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+306,-2147218419,2,0,The specified column name already exists. The application's configuration was corrupted.  Reinstall the application.
+307,-2147218418,2,0,The value for the attribute is not valid. The application's configuration was corrupted.  Reinstall the application.
+308,-2147218417,2,0,The property set GUID is not valid. The application's configuration was corrupted.  Reinstall the application.
+309,-2147218416,2,0,No more columns.  This is an internal error code and should not be reported to users.  Call Microsoft Product Support.
+310,-2147218415,2,0,"The system cannot write to the configuration file, because it was modified since it was last read. Stop and restart the search service.  If this problem persists, reinstall search."
+311,-2147218414,2,0,The specified column name is not valid. The application's configuration has been corrupted.  Reinstall the application.
+312,-2147218413,2,0,The property ID specified is not valid. The application's configuration has been corrupted.  Reinstall the application.
+313,-2147218412,2,0,"An invalid attribute was specified for this tag, or a required attribute is missing. The application's configuration was corrupted.  Reinstall the application."
+314,-2147218411,2,0,The specified file name is invalid. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+315,-2147218410,2,0,A column having the specified property set and PID already exists. The application's configuration has been corrupted.  Reinstall the application.
+316,-2147218409,2,0,"The configuration describing a language and sublanguage contains unexpected duplicate information. The application's configuration may be corrupted.  Though basic functionality is unlikely to be impacted, it is recommended that you reinstall the application."
+317,-2147218174,2,0,The object you are trying to create already exists. Try again using a different name.
+318,-2147218173,2,0,The registry value cannot be read because the configuration is invalid. Recreate the content index configuration by removing the content index.
+319,-2147218172,2,0,"The value cannot be set, because the object was already deleted or was not initialized properly. Check that the object reference is still valid, increase the registry size, or recreate the content index configuration."
+320,-2147218171,2,0,Performance monitoring cannot be initialized. This affects performance counters only. Try restarting the service or restarting the server.
+321,-2147218170,2,0,The specified object cannot be found. Specify the name of an existing object.
+322,-2147218166,2,0,"A duplicate index entry exists in the registry. No other indexes are affected, but it is recommended that the duplicate entry be deleted. "
+323,-2147218165,2,0,"A duplicate extension entry exists in the registry. The duplicate extension should be deleted, but all other extensions are unaffected."
+324,-2147218163,2,0,"The URL was already processed during this update. If you received this message while processing alerts, then the alerts are redundant, or else Modify should be used instead of Add."
+325,-2147218162,2,0,The gatherer attempted to create more gatherer plug-in objects than are allowed. Remove another plug-in before adding this one.
+326,-2147218161,2,0,"The function is not implemented in this context, and cannot be called.  This error is internal, and cannot normally occur. Reinstall the application."
+327,-2147218160,2,0,The plug-in did not provide a filter sink object. You may have installed a custom plug-in that is not supported. 
+328,-2147218159,2,0,"The filtering process ended and is now unavailable. The address will be retried, but it is possible that the system is low in resources. Free some system resources, or restart the update when resources are available."
+329,-2147218158,2,0,"An unexpected message was received from the filtering process. The crawler will retry this item in the next crawl. If this occurs frequently, try freeing some system resources or closing some applications and restarting the crawl."
+330,-2147218157,2,0,The filtering process returned an unsupported property type. Fix the filter to allow successful use of the document.
+331,-2147218156,2,0,"The specified name for this object exceeds the maximum length, which is usually 2047 characters. Use a shorter name for the object."
+332,-2147218155,2,0,The user agent or e-mail address was not specified. Specify the e-mail address to use in the protocol headers.
+333,-2147218154,2,0,The filtering process could not process this item. This might be because you do not have the latest file filter for this type of item. Install the corresponding filter and retry your crawl.
+334,-2147218153,2,0,All threads in the filtering process are currently in use. 
+335,-2147218152,2,0,"The ProgID for a protocol handler cannot be obtained, and the protocol handler registration is not valid. Reregister the protocol handlers."
+336,-2147218151,2,0,The item may be too large or corrupt. You may also verify that you have the latest version of this IFilter.
+337,-2147218150,2,0,The protocol handler cannot be found. Check that the handler has been installed.
+338,-2147218149,2,0,"The gatherer index was not initialized. The content index must be remounted. If the index is still not initialized, remove it."
+339,-2147218142,2,0,The catalog name is not valid. Choose a catalog name that is shorter or does not contain special characters.
+340,-2147218141,2,0,The gatherer is shutting down.
+341,-2147218139,2,0,The requested value was not set by the filter process. This is a recoverable internal error. The document may still succeed.
+342,-2147218138,2,0,All valid document IDs were used. Recreate the content index.
+343,-2147218137,2,0,"This content source cannot be crawled, because it is set up to accept alerts."
+344,-2147218134,2,0,The property mapping is duplicated in the schema. Remove the duplicate property schema.
+345,-2147218132,2,0,The specified account information is incorrect or not valid.  Check that the correct account and password are being used.
+346,-2147218130,2,0,"The document cannot be filtered, because the document and filter versions do not appear to match. Install a matching document filter."
+347,-2147218129,2,0,"The specified account name cannot be used because it contains invalid characters, such as '\'.  Use a valid account name."
+348,-2147218127,2,0,"The proxy server name is missing. Specify a proxy server, and try again."
+349,-2147218126,2,0,The server is unavailable and could not be accessed. The server is probably disconnected from the network.
+350,-2147218124,2,0,"This path does not correspond to the selected site. Use a path name that matches the site, or use a wildcard (*)."
+351,-2147218123,2,0,The document could not be filtered because the required code page is not installed.  Install the code page for this document.
+352,-2147218121,2,0,No protocol handler is available. Install a protocol handler that can process this URL type.
+353,-2147218120,2,0,"Internet Explorer is set to offline mode. Change Internet Explorer to online mode, and continue."
+354,-2147218119,2,0,"The filter process could not be started. The system is most likely low on resources, or the filter process binary was modified. If the resources are available, check the search binaries with an antivirus program."
+355,-2147218112,2,0,"The specified URL mapping is invalid. The ""from"" mapping is empty, or the ""from"" mapping is the same as the ""to"" mapping. Specify a valid ""from"" mapping that differs from the ""to"" mapping."
+356,-2147218111,2,0,The user agent string was not specified or contains invalid characters. Specify a user agent which is not empty and does not contain double quotation marks.
+357,-2147218109,2,0,The e-mail address is missing.  Type an e-mail address.
+358,-2147218108,2,0,The specified number of logs to keep is invalid. Set the number of logs to be greater than zero.
+359,-2147218107,2,0,The extension string is not specified or is invalid. Specify an extension string that does not contain the following characters: [./?*:\#] or spaces.
+360,-2147218106,2,0,The specified maximum grow factor is invalid. Set the maximum grow factor to be greater than or equal to zero.
+361,-2147218105,2,0,The specified time out value is invalid. Set the time out value to be greater than or equal to zero.
+362,-2147218104,2,0,The specified retry limit value is invalid. Set the retry limit value to be greater than or equal to zero.
+363,-2147218103,2,0,The gatherer log file name is not specified. Specify a log file name.
+364,-2147218096,2,0,The site name is not specified or is invalid. Specify a site name that does not contain the following characters: [/\\@#|] or spaces.
+365,-2147218095,2,0,The content source is not specified or is invalid. Type a host name that does not contain * or spaces.
+366,-2147218094,2,0,A catalog with the name specified already exists. Create the catalog using a different name.
+367,-2147218093,2,0,"The path is not specified or contains invalid characters, such as ["" ?*]. Specify a path that does not contain these characters."
+368,-2147218092,2,0,"The filtering was stopped because of a user action, such as stopping the crawl. "
+369,-2147218091,2,0,The specified port for the HTTP proxy is invalid. Specify a port between 0 and 0xffff
+370,-2147218089,2,0,The account password was not specified. Specify the password.
+371,-2147218088,2,0,The path expression cannot contain the reserved escape character '|'. Use an expression without reserved characters.
+372,-2147218087,2,0,The specification for the content source is missing the host name. Specify a valid URL.
+373,-2147218080,2,0,"The path specification for the content source cannot contain wildcard characters, such as [?*]. Remove all wildcards from the path specification."
+374,-2147218079,2,0,"The specified gatherer application could not be found. Use the name of an existing application, or reinstall the application."
+375,-2147218078,2,0,"The application plug-in manager could not be removed because the content index was configured to use the plug-in.  Remove all indexes, and then remove the plug-in manager."
+376,-2147218077,2,0,"The application name is invalid, because it contains special characters. Specify a different application name without special characters."
+377,-2147218076,2,0,Failed to write to transaction data into SQL.
+378,-2147218075,2,0,The data size returned by the filter is greater than the allocated buffer. Download and install an update for the filter.
+379,-2147218074,2,0,The object cannot be created on a non-fixed drive. Create the object on another drive.
+380,-2147218069,2,0,"The system attempted to load a filter marked as apartment in a multi-threaded filter daemon. The document will be retried in a single-threaded filter. Since multithreaded filtering is more efficient, try to obtain the version of the filter that is multi-threaded."
+381,-2147218067,2,0,The identified content was not crawled for this address. Recreate the content index.
+382,-2147218065,2,0,The gatherer could not handle the alert stream. All alert sources will be crawled again.
+383,-2147218062,2,0,"A duplicate of this document was detected, and the document will be retried. If this problem persists, recreate the content index."
+384,-2147218061,2,0,"The administrative data from the Exchange store or registry could not be read. Check that the Exchange store is started, and that it was properly restored."
+385,-2147218060,2,0,"Read access to the Exchange store is temporarily unavailable. If this message persists, restart the Exchange store."
+386,-2147218058,2,0,"The function is unavailable, because it was called while the word breaker was attempting to fill the text buffer. Download and install an update for the word breaker."
+387,-2147218057,2,0,"The property list for the content class of this document could not be loaded, and the schema could not be accessed. Check that the schema is correctly configured."
+388,-2147218055,2,0,Crawling could not continue because the local server is not responding. Restart Microsoft SQL Server.
+389,-2147218053,2,0,"This item could not be crawled because the repository did not respond within the specified timeout period. Try to crawl the repository at a later time, or increase the timeout value on the Proxy and Timeout page in search administration. You might also want to crawl this repository during off-peak usage times."
+390,-2147218052,2,0,Backup and restore is already in progress.  Try again after the current backup has completed.
+391,-2147218050,2,0,Restore is already in progress
+392,-2147218047,2,0,Annotation transactions always spawn a transaction for the annotated document and then fail themselves.  This is an internal error code and should not be reported to users.  Call Microsoft Product Support.
+393,-2147218046,2,0,"Because this document was the target of a shortcut, it cannot itself be a shortcut."
+394,-2147218042,2,0,The content source for this alert must refer to a valid file system directory
+395,-2147218041,2,0,Alerts for this content source are not supported.
+396,-2147218040,2,0,Alerts for this content source could not be established because information about the file share could not be obtained.
+397,-2147218039,2,0,Alerts for a content source with a local address are only supported for a fixed media drive type. Use the UNC name for remote file shares.
+398,-2147218037,2,0,"The new content index cannot be added because there is not enough disk space.  Free up at least 10 megabytes of free space, and then try again."
+399,-2147218036,2,0,The urn:schemas-microsoft-com:publishing:ShortcutTarget property must be type LPWSTR. Change the type for the property to LPWSTR.
+400,-2147218035,2,0,The document received an invalid document resource ID.  The document must be crawled again.
+401,-2147218034,2,0,Hierarchical content sources such as those in the file system cannot be nested.
+402,-2147218027,2,0,The first attempt to crawl this object failed. Another attempt is being made.
+403,-2147218026,2,0,"Backup and restore failed during an ESE database phase. For more detailed information, check the event log."
+404,-2147218025,2,0,"Backup and restore failed during an ESE database phase. For more detailed information, check the event log."
+405,-2147218024,2,0,Backup and restore cannot occur while the content index is being updated. Try again after the current update is complete.
+406,-2147218023,2,0,The content index could not be backed up because it could not be read.
+407,-2147218021,2,0,"The plug-in is not properly registered on this computer.  Check that the application is properly installed, or contact Microsoft Product Support."
+408,-2147218020,2,0,Alerts for this scope were interrupted so that authentication tokens can be updated. 
+409,-2147218019,2,0,"File system alerts were not initialized successfully   If the problem persists after restarting the service, try rerunning Setup."
+410,-2147218018,2,0,File system alerts for this scope are stopped because the scope is being removed.
+411,-2147218017,2,0,"Alerts failed because of network failures or because the internal cache size was exceeded.  If the problem persists, change the content source type to adaptive or crawl."
+412,-2147218016,2,0,The operation could not be completed because the specified path is invalid.  Try again using a valid path.
+413,-2147218015,2,0,There were not enough keywords in the sample documents to train the Topic Assistant.  Try again when more sample documents are available.
+414,-2147218014,2,0,The Topic Assistant requires sample documents from at least two categories.  Try again when sample documents for more categories are available.
+415,-2147218013,2,0,There were not enough sample documents to train the Topic Assistant.  Try again when more sample documents are available.
+416,-2147218012,2,0,An error occurred using the topic assistant.  Check the event log for related failures.
+417,-2147218011,2,0,"The system attempted to load a filter marked as apartment from an embedded component in a multi-threaded filter daemon. The document will be retried in a single-threaded filter. Since multithreaded filtering is more efficient, try to obtain the version of the filter that is multi-threaded."
+418,-2147218008,2,0,Backup and restore cannot occur while a content index is being updated.
+419,-2147218006,2,0,The security descriptor for this item only contained built-in access control entries. The built-in ACEs have to be removed because they won't be valid for this item during queries.
+420,-2147217962,2,0,The content processing component failed to process the security descriptor of the item.
+421,-2147218005,2,0,The context for this object is no longer valid.  Refresh the context for this object.
+422,-2147218003,2,0,Backup and restore cannot occur while the content index is being created or deleted.  Try again later.
+423,-2147218002,2,0,"The checkpoint cannot be enabled, because the content index is not idle.  Wait until the index is idle, and then try again."
+424,-2147218001,2,0,The maximum number of search scopes was reached. Use one of the existing scopes.
+425,1074007472,2,0,Maximum number of properties per document has been reached. The indexing of this document has been truncated.
+426,-2147217999,2,0,Password specified during restore does not match the backup password.
+427,-2147217998,2,0,The start address is invalid because it is a local path.  Please enter a valid start address.
+428,-2147217996,2,0,The filtering process has been terminated
+429,-2147217995,2,0,The current system locale is different from the system locale in the backup image
+430,-2147217994,2,0,"The backup image cannot be verified because the image may be corrupted. To preserve your data, it is recommended that you run Data Backup and Restore again."
+431,-2147217992,2,0,The links for this document cannot be processed due to a OLEDB error. The document will be retried in the next crawl
+432,-2147217991,2,0,An attempt was made to update application level configuration with an obsolete view of the current state.  Refresh your application-level objects and redo the update.
+433,-2147217990,2,0,The application is unable to accept further updates because the last attempt to persist the state failed.  See the event log for more details.
+434,-2147217985,2,0,The crawl component is disabled.
+435,-2147217980,2,0,The repository returned an out of memory error.
+436,-2147217979,2,0,"This item was marked as Offline and was not crawled. If you would like this crawled, remove offline attribute from the file."
+437,-2147217978,2,0,"This item will be retried as a part of the next crawl. If this belongs to a SharePoint repository, all items below this will also be retried in the next crawl."
+438,-2147217976,2,0,This item cannot be indexed by the search system because it has a security descriptor larger than 64K.
+439,-2147217975,2,0,The filter daemon did not respond within the timeout limit.
+440,-2147217973,2,0,The content processing pipeline failed to process the item.
+441,-2147217972,2,0,An unexpected error occurred when trying to submit the item to content processing. This item will be retried in the next incremental crawl.
+442,-2147217971,2,0,The item was aborted because the pipeline did not respond within the appropriate time. This item will be retried in the next crawl.
+443,-2147217970,2,0,The content plugin failed to process the item.
+444,-2147217947,2,0,Directory Links across partitions are not allowed.
+445,-2147217946,2,0,SharePoint list is corrupted. The list item doesn't have a display URL.
+446,-2147217945,2,0,Continuous crawl cannot be enabled because the disable operation is in progress. Retry to enable it.
+447,-2147217941,2,0,Unable to process item: wordbreaker problem.
+448,-2147217940,2,0,Unable to process item: dictionary loading problem.
+449,-2147217939,2,0,Unable to process item: language detection problem.
+450,-2147217151,2,0,The tag is invalid. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+451,-2147217150,2,0,"The propagation configuration file cannot be read.  Check that the same versions of search are used on both the content index and search servers.  If the problem persists, recrawl and repropagate the content index. "
+452,-2147217149,2,0,"The number of search servers exceeded the limit.  Ensure that the number of propagated content indexes is less than the documented maximum.  If so, start and restart the search service, and then try again."
+453,-2147217148,2,0,The specified search server already exists. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+454,-2147217147,2,0,An update is already in progress. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+455,-2147217146,2,0,The index list file cannot be read. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+456,-2147217145,2,0,"A registry entry required for content index creation cannot be read or created. Delete and recreate the content index.  If the problem persists, you may need to reinstall search."
+457,-2147217144,2,0,"One or more files required for content index creation were not found. Stop and restart the search service.  If the problem persists, delete and recreate the content index."
+458,-2147217143,2,0,"The search server was not found. Stop and restart the search service.  If propagation is being used, stop and restart the search service on the remote computers."
+459,-2147217142,2,0,"A word breaker was not found for the given language. Check your current language settings and ensure that search supports the current language.  If the problem persists, reinstall search."
+460,-2147217141,2,0,A noise word list was not found for the given language. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+461,-2147217140,2,0,A stemmer was not found for the given language. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+462,-2147217139,2,0,Index propagation was stopped.  This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+463,-2147217138,2,0,The disk is full. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+464,-2147217137,2,0,The index data is invalid. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+465,-2147217136,2,0,The index data is corrupt. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+466,-2147217135,2,0,There is no backup content index. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+467,-2147217134,2,0,The property store cannot be initialized. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+468,-2147217133,2,0,The propagation state information cannot be read. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+469,-2147217129,2,0,"The content index is not loaded. Stop and restart the search service.  If the problem persists, review other errors in the event log. If necessary, delete and recreate the content index."
+470,-2147217128,2,0,"There is a mismatch in the major version number. Check that the same versions of search are used on both the content index and search servers.  If necessary, crawl the index again and repropagate the index. "
+471,-2147217127,2,0,The index is a mismatch in the minor version number. This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+472,-2147217126,2,0,"A connection with the Search service on a remote machine could not be established. Check the connectivity with the remote machine.  If necessary, stop and restart the Search service on the remote machine."
+473,-2147217125,2,0,Crawling of documents was stopped. This is an internal error code and should not be reported to users.  Call Microsoft Product Support.
+474,-2147217124,2,0,"The index was dismounted because it is being removed or the search service stopped.  If the problem persists, restart the search service."
+475,-2147217121,2,0,No index level information exists for this index. Use application level tables for this index.
+476,-2147217120,2,0,Information for this content class was not found. Use the default content class.  This error is obsolete and should no longer be reported.  Call Microsoft Product Support.
+477,-2147217119,2,0,The content index cannot be updated while backup and restore is in progress.
+478,-2147217025,2,0,"The content index server cannot update or access information because of a database error.  Stop and restart the search service.  If the problem persists, reset and recrawl the content index.  In some cases it may be necessary to delete and recreate the content index."
+479,-2147217023,2,0,"The content index server cannot find a description of the content index in its database. Search will automatically attempt to recreate the content index description.  If this problem persists, stop and restart the search service and, if necessary, delete and recreate the content index."
+480,-2147217022,2,0,The content index server cannot find needed information in its database. Reset and recrawl the content index.
+481,-2147217021,2,0,"The content index server cannot update or access its database, because the version store has insufficient resources.  Increase the system resource usage setting for the search service.  If the problem persists, stop and restart the search service."
+482,-2147217020,2,0,"The content index server cannot update or access its database because sessions are unavailable. Increase the system resource usage setting for the search service.  If the problem persists, stop and restart the search service."
+483,-2147217019,2,0,"The content index server cannot update or access its database because insufficient system resources are available. Increase the system resource usage setting for the search service.  If the problem persists, stop and restart the search service."
+484,-2147217018,2,0,The content index server cannot update an unrecognized or recently defined property attribute. Reset and recrawl the content index.
+485,-2147217017,2,0,"The property store was unable to open, close, or delete a data file used in propagation.  Check that your index volume has enough disk space."
+486,-2147217016,2,0,The property store encountered propagation data files that cannot be used.  Try propagation again.
+487,-2147217015,2,0,"There is a mismatch in the property store version numbers. Ensure that the same versions of search are used on both the content index and search servers.  If necessary, recrawl the content index and try to propagate the content index again."
+488,-2147216992,2,0,"The configuration properties for Microsoft Exchange 5.5 were not set. Specify these properties, and then try again."
+489,-2147216991,2,0,"The name of the Microsoft Exchange 5.5 server specified in the content source does not match the Exchange server specified in the Microsoft Exchange 5.5 configuration properties. Change the name of the Exchange server in the content source or configuration properties to match, and then try again."
+490,-2147216990,2,0,There is insufficient privilege to access the Microsoft Exchange 5.5 server. Check that the Microsoft Exchange 5.5 configuration is valid and that the search service is running in the context of a user having administrative privileges on the Exchange server configuration node.
+491,-2147216989,2,0,The Microsoft Exchange 5.5 server name specified in the address does not match the one specified in the Microsoft Exchange 5.5 configuration. 
+492,-2147216988,2,0,There is insufficient privilege to access the Microsoft Exchange 5.5 Server. Verify that the Microsoft Exchange 5.5 configuration is valid and that the Search Service is running in the context of a user having administrative privileges on the Exchange Server configuration node.
+493,-2147216987,2,0,"The service cannot access the Exchange 5.5 server. The configured Microsoft Exchange 5.5 server name may be invalid, the Exchange 5.5 server may be temporarily unavailable, or the account used by the search service may not have administrative access to the Exchange 5.5 server. Check all of these properties, and then try again."
+494,-2147216986,2,0,"The service cannot access the Exchange 5.5 service. The account used by the search service may not be an Exchange administrator, or the site or organization settings on the search host may be invalid."
+495,-2147216985,2,0,"Outlook is not installed on this machine, or is missing the CDO or MSEMS components.  Please install and configure Outlook, then try again."
+496,-2147216984,2,0,The account information specified for accessing the Exchange 5.5 server cannot be used. Verify the account and password information.
+497,-2147216892,2,0,An unrecognized HTTP response was received when attempting to crawl this item. Verify whether the item can be accessed using your browser.
+498,-2147216886,2,0,The address cannot be accessed. Check that the address can be accessed from Internet Explorer.
+499,-2147216885,2,0,The attempt to access the URL again failed.
+500,-2147216883,2,0,The URL was excluded because its content type (multipart/x-mixed-replace) is not supported.
+501,-2147216882,2,0,Search was unable to convert the Access Control List of the crawled store into a Windows NT Access Control List. Check that local information is not used in the store.
+502,-2147216881,2,0,An object cannot be processed because search cannot convert a Notes Access-Denied entry in the Access Control List into a Windows NT identity. Check the Notes to Windows NT identity mapping.
+503,-2147216877,2,0,The item cannot be processed further because search failed to find one of its properties. Check that the item is valid in the store.
+504,-2147216875,2,0,The database cannot be opened. Check that the database is functional.
+505,-2147216874,2,0,Filtering was interrupted because of a sharing conflict with another process. Crawl the file again when it is not in use.
+506,-2147216873,2,0,The protocol handler cannot be loaded.
+507,-2147216872,2,0,The protocol handler cannot be initialized.
+508,-2147216871,2,0,The volume mount point is not supported.
+509,-2147216870,2,0,Some data was truncated. Check that the content can still be read.
+510,-2147216864,2,0,Failed to get security information from Microsoft(R) Windows(R) SharePoint(TM) Services server. Make sure Office XP SP1 is installed.
+511,-2147216863,2,0,"The URL of the item could not be resolved. The repository might be unavailable, or the crawler proxy settings are not configured. To configure the crawler proxy settings, use Search Administration page."
+512,-2147216862,2,0,Need Administrator privilege on the site to index Microsoft(R) Windows(R) SharePoint(TM) Services.
+513,-2147216861,2,0,The secure sockets layer (SSL) certificate sent by the server was invalid and this item will not be crawled.
+514,-2147216860,2,0,Accessing this site requires a client certificate.  Specify a client certificate in the crawl rules.
+515,-2147216858,2,0,An unexpected error occurred while backing up the registry.
+516,-1073475033,2,0,An unexpected error occurred while restoring the registry.
+517,-1073475032,2,0,The database connection string is not available.
+518,-1073475031,2,0,This server is not the indexer of this search application.
+519,-2147216854,2,0,The Query and Index roles are offline.
+520,-2147216853,2,0,Registry backup failed because of a version mismatch.
+521,-1073475028,2,0,The 'indexLocation' application property is invalid.
+522,-1073475027,2,0,Could not access the Search service configuration database
+523,-1073475026,2,0,The gatherer application could not be mounted because the search property store database schema version does not match the expected backwards compatibility schema version. The database might not have been upgraded.
+524,-1073475025,2,0,Could not access the Search metadata database. A generic error occurred while trying to access the database to obtain the schema version info.
+525,-2147216846,2,0,An internal error occurred while expanding local groups.
+526,-1073475021,2,0,The gatherer application could not be mounted because the search gatherer database schema version does not match the expected backwards compatibility schema version. The database might not have been upgraded.
+527,-1073475020,2,0,Could not access the Search gatherer database. A generic error occurred while trying to access the database to obtain the schema version info.
+528,-1073475019,2,0,The gatherer application could not be mounted because the search administration database schema version does not match the expected backwards compatibility schema version. The database might not have been upgraded.
+529,-1073475018,2,0,Could not access the Search administration database. A generic error occurred while trying to access the database to obtain the schema version info.
+530,266809,2,0,You must use Rosebud to access this address.
+531,-2147216127,2,0,An unexpected error occurred.
+532,-2147216126,2,0,There is an unmatched parenthesis on the command line. 
+533,-2147216125,2,0,The parameter is too long. 
+534,-2147216124,2,0,The object is not initialized. Call Init() first to initialize the object.
+535,-2147216123,2,0,The object is already initialized. 
+536,-2147216122,2,0,There are too many parameters. 
+537,-2147215103,2,0,A catalog with the name specified already exists.  Choose another name to create a new catalog.
+538,-2147215101,2,0,The account cannot be granted a privilege to "log on as service" on the domain controller.  The domain security administrator needs to grant the default account this privilege.  All of the default accounts specified for the server need this account privilege.
+539,-2147215100,2,0,"The selected content index definition did not initialize and cannot be used.  Check server status, content index configuration, and user access to the server."
+540,-2147213312,2,0,The chunk type was not text. 
+541,-2147213311,2,0,The property ID type was not name. 
+542,-2147213310,2,0,The property ID type was not numeric. 
+543,-2147213309,2,0,The chunk type is not value. 
+544,-2147213308,2,0,"The chunk does not allow changes. To set properties on a chunk, create it using IGatherScriptFilterSink::CreateChunk"
+545,-2147213307,2,0,The resource completion code was already set. 
+546,-2147213306,2,0,Failed to compute result type during content processing. 
+547,-2147213305,2,0,Invalid annotations detected in summarizer. 
+548,-2147221246,2,0,MAPI: This is not supported
+549,-2147221245,2,0,MAPI: The character width is bad.
+550,-2147221243,2,0,MAPI: The string is too long.
+551,-2147221242,2,0,MAPI: The caller passed an invalid parameter or flag. 
+552,-2147221241,2,0,MAPI: The entry ID is invalid
+553,-2147221240,2,0,The MAPI object is invalid. 
+554,-2147221239,2,0,The MAPI object was changed.  
+555,-2147221238,2,0,The MAPI object was deleted. 
+556,-2147221237,2,0,MAPI: The server is busy
+557,-2147221235,2,0,MAPI: The computer is out of disk space
+558,-2147221234,2,0,MAPI: Not enough system resources were available to complete the operation. 
+559,-2147221233,2,0,The MAPI object was not found. 
+560,-2147221232,2,0,The version of OLE installed on the workstation is not compatible with this version of MAPI. 
+561,-2147221231,2,0,MAPI: Logon failed.  
+562,-2147221230,2,0,MAPI: The session limit was exceeded. 
+563,-2147221229,2,0,MAPI: The user cancelled the operation. 
+564,-2147221228,2,0,MAPI: The operation cannot be stopped. 
+565,-2147221227,2,0,MAPI: A network error occurred. 
+566,-2147221226,2,0,MAPI: A disk error occurred. 
+567,-2147221225,2,0,"The calling process is an NT service, and registry keys required by MAPI could not be initialized.  "
+568,-2147221224,2,0,MAPI: A bad column was requested.
+569,-2147221223,2,0,MAPI:An extended error occurred.  
+570,-2147221222,2,0,MAPI: Computed
+571,-2147221221,2,0,MAPI: The data is corrupt. 
+572,-2147221220,2,0,MAPI: Not configured
+573,-2147221219,2,0,MAPI: At least one provider failed. 
+574,-2147221218,2,0,MAPI: A code page ID is unknown. 
+575,-2147221217,2,0,MAPI: A locale ID is unknown. 
+576,-2147221216,2,0,MAPI: Access is denied. Change your password.
+577,-2147221215,2,0,"MAPI: Access is denied, because the password has expired. "
+578,-2147221214,2,0,"MAPI: Access is denied, because the workstation account is invalid. "
+579,-2147221213,2,0,"MAPI: Access is denied, because the access time is invalid. "
+580,-2147221212,2,0,"MAPI: Access is denied, because the account is disabled."
+581,-2147220992,2,0,MAPI: The session has ended. 
+582,-2147220991,2,0,MAPI: An entry ID is unknown. 
+583,-2147220990,2,0,MAPI: A required column is missing. 
+584,-2147212287,2,0,An unexpected error occurred in the filtering process. Contact Microsoft Product Support.
+585,-2147212286,2,0,The document IFilter cannot provide the needed interface. The IFilter may contain errors.
+586,-2147212284,2,0,The filtering process could not be initialized when trying to process this item. Verify that the file extension is a known type and the item is not corrupt.
+587,-2147212283,2,0,An encrypted document cannot be filtered.
+588,-2147212282,2,0,The password for the content access account cannot be decrypted because it was stored with different credentials.  Re-type the password for the account used to crawl this content.
+589,-2147211775,2,0,An unexpected error occurred in the Notes protocol handler while processing the URL.
+590,-2147211773,2,0,"Only rich text, HTML, and text types are supported for the content field."
+591,-2147211772,2,0,A requested item is not found.
+592,-2147211771,2,0,The Notes data cannot be accessed. Check that the server is properly configured for accessing Notes data.
+593,-2147211770,2,0,One or more attachments cannot be processed.
+594,-2147211769,2,0,The Windows NT identity does not exist.
+595,-2147211767,2,0,"The user name mapping cannot be read. Check that the database, view, and column names are correct, that the Notes database is accessible, and that the sort option is enabled. For more information, see the Administrator's Guide."
+596,-2147211758,2,0,SharePoint Team Services XML Error
+597,-2147211757,2,0,Error in the Microsoft SharePoint Foundation Protocol Handler.
+598,-2147211756,2,0,Stop Parsing XML 
+599,-2147211755,2,0,Error in the Microsoft SharePoint Server People Protocol Handler.
+600,-2147211754,2,0,The SharePoint item being crawled returned an error when requesting data from the web service.
+601,-2147211753,2,0,Error in PortalCrawl Web Service.
+602,-2147211519,2,0,An unexpected error occurred in the exstore protocol handler. Contact Microsoft Product Support.
+603,-2147211263,2,0,Cannot find or access the client certificate specified for crawling this site.
+604,-2147208447,2,0,An unexpected error occurred in the in-memory schema cache.
+605,-2147208191,2,0,The property mapping information on the content source cannot be read.
+606,-2147208190,2,0,The content source information code contains unexpected null pointers.
+607,-2147208189,2,0,Parallel vectors for property mapping information on the content source have different dimensions.
+608,-2147208188,2,0,The content class information for the content source cannot be read.
+609,-2147208187,2,0,An unexpected exception occurred in the content source information code.
+610,-2147208186,2,0,The content class of the content source is empty.
+611,-2147208185,2,0,An unknown data type was found when reading content class information from the content source.
+612,-2147208184,2,0,A request for property mapping information is out of range.
+613,-2147208183,2,0,Empty or null URIs are not valid as property mapping.
+614,-2147207936,2,0,This is an internal error code. A method was called when it should not be. Call Microsoft Product Support.
+615,-2147207934,2,0,A security update was attempted on an address that was redirected to a different server.
+616,-2147207933,2,0,An address was redirected more than once.
+617,-2147207932,2,0,The requested property does not exist on the row.
+618,-2147207931,2,0,The requested read type does not match the data type.
+619,-2147207930,2,0,The status of the request data is unexpected. Call Microsoft Product Support.
+620,-2147207929,2,0,An unknown data type was found. Call Microsoft Product Support.
+621,-2147207928,2,0,An unexpected filter state occurred. Call Microsoft Product Support.
+622,-2147207927,2,0,A duplicate property was found. Call Microsoft support if this error is encountered.
+623,-2147205119,2,0,No data source is defined.
+624,-2147205117,2,0,No data source property mapping is defined.
+625,-2147205116,2,0,Data source mapping cannot be retrieved. Check to see that the mapping entry is valid.
+626,-2147205113,2,0,Incremental import information cannot be updated.
+627,-2147205112,2,0,A zero-length cookie was retrieved at the end of a Dirsync search. The account may not have the appropriate rights.
+628,-2147205111,2,0,The specified LDAP distinguished name is too long.
+629,-2147205110,2,0,The canonical URL is too long.
+630,-2147205109,2,0,The user account name cannot be resolved within the Directory Server. You would need to verify whether the user is a real user or just a temporary user object generated for some application purpose. You might be able to refine the LDAP search filter to avoid this error.
+631,-2147205103,2,0,"You do not have sufficient permissions for incremental import, or the DirSync cookie stored in the user profile database is corrupt. If you are importing from a Windows 2000 domain, check that the import account has the Replicate Changes permission for Active Directory directory services. If the import account has the permission, start a full import to refresh the cookie."
+632,-2147205102,2,0,The Anchor Plugin is shutting down.
+633,-2147205101,2,0,The Anchor Plugin is paused.
+634,-2147205100,2,0,The SQL query did not return any rows for the query.
+635,-2147205099,2,0,The target docid is not found in the plugin cache.
+636,-2147205097,2,0,"The anchor plugin is not initialized,"
+637,-2147205096,2,0,The indexer plugin is not found.
+638,-2147205088,2,0,Exception occurred when calling into BIL connector for import from non master data source. Please check Microsoft SharePoint Server ULS log for exception details.
+639,-2147205087,2,0,Ranking calculation encountered an error while accessing the database.
+640,-2147204864,2,0,Values of this type are not turned into strings necessary to generate scope information. The item will not be locatable in all of the appropriate scopes but this is not a serious error.
+641,-2147204863,2,0,The specified scope does not exist in the database. The information in the service does not agree with that in the database. The search service should be restarted.
+642,-2147204862,2,0,A scope index with the given compilation ID does not match the ID expected by the catalog.
+643,-2147204608,2,0,The archival plugin failed to upload data to the property store
+644,-2147204607,2,0,The archival plugin failed to update data in the property store
+645,-2147204606,2,0,The archival plugin failed to bulk insert data in the property store
+646,-2147204605,2,0,The archival plugin failed to delete data in the property store
+647,-2147207680,2,0,"A catalog is already mounted with this name, so another can't be mounted."
+648,-2147207679,2,0,The specified catalog was not found in the current list of mounted catalogs.
+649,-2147207678,2,0,The account password was not specified. Specify the password.
+650,-2147207677,2,0,The named pipe used to communicate with the filter daemon has not been connected.
+651,-2147207676,2,0,The configuration data given to the MSFTESQL service is corrupt.
+652,-2147207675,2,0,"The system attempted to load an apartment threading model filter marked in a multi-threaded filter daemon. The document will be retried in a single-threaded filter daemon process. Since multithreaded filtering is more efficient, try to obtain the version of the filter that is multi-threaded."
+653,-2147207674,2,0,"The value cannot be set, because the object was already deleted or was not initialized properly. Make sure the object reference is still valid, increase the registry size, or recreate the catalog configuration."
+654,-2147207673,2,0,An internal interface is being used after the corresponding catalog has been shutdown. The operation will be aborted.
+655,-2147207672,2,0,An internal interface is being used prior to being initialized. The operation will be aborted.
+656,-2147207671,2,0,Data transferred between the MSFTESQL service and a filter daemon process is corrupted. This is an internal error.
+657,-2147207664,2,0,This is an internal error: The URB has exceeded the maximum size.
+658,-2147207663,2,0,This is an internal error: Document IDs should be greater than 0 and less than or equal to 0x7fffffff.
+659,-2147207662,2,0,An external status change has put the catalog in a paused state.
+660,-2147207661,2,0,"A status change is occurring or the project is in a force paused state, so MSFTESQL cannot accept input at this time."
+661,-2147207660,2,0,The MSFTEFD process was launched but did not connect with the MSFTESQL service.
+662,-2147207658,2,0,This is an internal error: Initialization of the datasink is incorrect.  At least one protocol handler PROGID is required.
+663,-2147207657,2,0,This is an internal error:  A static thread has gotten invalid arguments and will force batches to be aborted and retried.
+664,-2147207656,2,0,"A catalog already exists with this name, so another can't be created or mounted."
+665,-2147207654,2,0,"A file path exceeds the maximum limit for paths in Windows, so it can't be used."
+666,-2147207653,2,0,Access is denied to the caller of this administration interface.
+667,-2147207652,2,0,"Signature validation cannot be performed on modules loaded by COM, so the object will not be created. The object is likely a filter, wordbreaker, stemmer, or protocol handler."
+668,-2147207651,2,0,The processor affinity mask is invalid.
+669,-2147207650,2,0,This is an internal error that should be handled. The FD has been killed and this chunk buffer has already been reassigned.
+670,-2147207647,2,0,"The maximum number of plug-ins has been exceeded, so a new plug-in can't be loaded."
+671,-2147207644,2,0,An object could not be inserted because it was a duplicate of an existing object. The object may be a catalog or other named entity.
+672,-2147207642,2,0,The transaction that superseded this one ended in error.
+673,-2147207641,2,0,The transaction that superseded this one ended in error.
+674,-2147207640,2,0,This is an internal error: This request cannot be completed because the Filter Daemon has been shutdown.
+675,-2147207639,2,0,"The catalog does not exist, so the operation can't be performed."
+676,-2147207638,2,0,"There are no plug-in components in the indexing pipeline, so the data collected will not be used."
+677,-2147207636,2,0,Processing of this batch of transactions has been aborted.
+678,-2147207635,2,0,A status change is active on another thread. Since only one status change is allowed at a time this request can't be handled.
+679,-2147207633,2,0,A previous error prevented further processing of the batch.
+680,-2147207632,2,0,"The filter daemon process MSFTEFD timed out for an unknown reason. This may indicate a bug in a filter, wordbreaker, or protocol handler."
+681,-2147207631,2,0,This is an internal error: This activity is no longer valid because the resource is shutdown.
+682,-2147207630,2,0,The property specified is invalid.
+683,-2147207629,2,0,There are no more properties.
+684,-2147207628,2,0,"The plug-in specified is not known likely because it isn't loaded, so the operation can't succeed. Only specify plug-ins that are loaded."
+685,-2147207627,2,0,The performance monitor library could not be loaded.
+686,-2147207626,2,0,There are no more slots available for this performance monitor instance
+687,-2147207625,2,0,The filter daemon process MSFTEFD was not able to create an accessor object for the batch.
+688,-2147207624,2,0,The property type specified is incorrect for this property. Please see the product documentation for the correct data type for this property.
+689,-2147207623,2,0,The value specified is out of range. Please see the product documentation for the valid range.
+690,-2147207622,2,0,The property store for upgrade is corrupted.
+691,-2147207621,2,0,The workid is not valid for the property store.
+692,-2147207619,2,0,The gatherer hash map for upgrade is corrupted.
+693,-2147207618,2,0,The key is not cached in the property store.
+694,-2147207617,2,0,The upgrade interface has already been shutdown.
+695,-2147207616,2,0,The upgrade interface has already been instantiated. Only one instance of the upgrade interface is allowed.
+696,-2147207615,2,0,The stack for a thread in this process is corrupted due to a programming bug. This may be a security threat and indicate your system has been attacked. The process will be shutdown.
+697,-2147207614,2,0,The protocol handler index passed to the OnDataChange function is invalid.
+698,-2147207613,2,0,The serial stream being indexed is corrupted.
+699,-2147207612,2,0,The catalog is opened for read-only operations. Writing is prohibited to this catalog.
+700,-2147207611,2,0,The performance monitor counters cannot be unloaded because they are not loaded in the first place.
+701,-2147207608,2,0,This huge document will be retried in dedicated filter daemon MSFTEFD process.
+702,-2147207607,2,0,This is an internal error: The filter daemon MSFTEFD type is unknown or invalid.
+703,-2147207606,2,0,There are not enough resources to process the document or row.
+704,-2147207605,2,0,This is an internal error: Datatype misalignment was detected likely due to a programming error.
+705,-2147207604,2,0,The object is already initialized.
+706,-2147207603,2,0,The filter daemon process MSFTEFD used too much memory and will be terminated.
+707,-2147207601,2,0,High memory pressure was detected by the MSFTESQL memory manager.
+708,-2147207600,2,0,A batch flagged to isolate a previous error had too many transactions in it.
+709,-2147207599,2,0,msftesql should reprocess this document in an isolated fashion to confirm the error.
+710,-2147207598,2,0,An internal identifier for naming catalogs has been corrupted.
+711,-2147207597,2,0,A failure occurred when tracking the completion of wordlists which will cause current activity to be aborted.
+712,-2147207596,2,0,The specified code page is not installed or not available.
+713,-2147207595,2,0,Internal Error Code: Filter Daemon is terminated because it is idle.
+714,-2147207594,2,0,Filter Daemon was unresponsive to a directive to shut itself down.
+715,-2147207584,2,0,The propagation mode is continuous. Staged propagation cannot start in this mode.
+716,-2147207583,2,0,A Staged propagation is already in progress
+717,-2147207582,2,0,Duplicate query server is found in database
+718,-2147207581,2,0,"Continuous propagation is paused, no new shadow index can be propagated at this time."
+719,-2147207580,2,0,Propagation OM does not apply to a Standalone farm
+720,-2147207579,2,0,"Continuous propagation is paused due to an error, no new shadow index can be propagated at this time."
+721,-2147207578,2,0,The service failed to create first instance of a named pipe.
+722,-2147169536,2,0,This is an internal error: The chunk buffer is out of memory.
+723,-2147169535,2,0,This is an internal error: The chunk buffer id is out of bounds.
+724,-2147169534,2,0,There is not enough available physical or virtual memory for chunk buffers. Chunk buffers are needed to index data. Please free up memory.
+725,-2147169533,2,0,"There is not enough occurrence buffer memory available. Possible causes include too many processors, too many filter threads, or the occurrence buffer is not being returned."
+726,-2147169532,2,0,"The in-memory wordlist is corrupted. This is due to a faulty filter, wordbreaker, or other indexing component."
+727,-2147156736,2,0,The IPersistStream and IPersistFile interfaces were unavailable from an IFilter filter DLL to load data for indexing.
+728,-2147156735,2,0,The IFilter::Init() function call failed.
+729,-2147156734,2,0,"The filter daemon MSSDMN failed to load an IFilter interface for document, so it can't be indexed."
+730,-2147156733,2,0,The document being indexed timed out for an unknown reason. This may be due to a bug in a filter or wordbreaker.
+731,-2147156730,2,0,The system failed to load the text filter for parsing a noise word file.
+732,-2147156729,2,0,The system failed to load noise words stream into text filter because text filter does not support IPersistStream.
+733,-2147156728,2,0,The system failed to load noise words stream into text filter because the IPersistStream::Load() function failed.
+734,-2147156727,2,0,The system failed to load noise words stream into text filter because IFilter::Init() function failed.
+735,-2147156726,2,0,"Occurrence counter overflow, document is not indexed."
+736,-2147156725,2,0,The filter has caused a sharing violation.
+737,-2147156721,2,0,The SharePoint item being crawled returned an error when attempting to download the item.
+738,-2147156720,2,0,The SharePoint server being crawled did not respond to the crawler because crawls may have had an impact on its end-user browse performance.
+739,-2147156719,2,0,Error while crawling LOB contents.
+740,-2147156718,2,0,The SharePoint server was moved to a different location.
+741,-2147156717,2,0,The gatherer application could not be mounted because the search administration database schema version is greater than its target schema version and is not supported by the farm. One or more servers in the farm might need to be updated with the latest patch.
+742,-2147156716,2,0,The gatherer application could not be mounted because the search gatherer database schema version is greater than its target schema version and is not supported by the farm. One or more servers in the farm might need to be updated with the latest patch.
+743,-2147156715,2,0,The gatherer application could not be mounted because the search property store database schema version is greater than its target schema version and is not supported by the farm. One or more servers in the farm might need to be updated with the latest patch.
+744,-2147156714,2,0,The gatherer application could not be mounted as the application specific schema version could not be retrieved. Check if the products file is updated with valid compatibility schema versions for all the gatherer applications.
+745,-2147156711,2,0,Anonymous crawling is not allowed for Sharepoint sites. Check crawl rules to disable anonymous crawling for this URL.
+746,-2147156710,2,0,Configured crawl target web frontends couldn't be validated. Check if the crawl target web frontends are accessible and AAM is configured.
+747,-2147156709,2,0,Could not access the Search links database. A generic error occurred while trying to access the database to obtain the schema version info.
+748,-2147156708,2,0,The gatherer application could not be mounted because the search links store database schema version is greater than its target schema version and is not supported by the farm. One or more servers in the farm might need to be updated with the latest patch.
+749,-2147156707,2,0,The gatherer application could not be mounted because the search links store database schema version does not match the expected backwards compatibility schema version. The database might not have been upgraded.
+750,-2147156706,2,0,XML parser was unable to parse the XML because it was not properly formed.
+751,-2147156705,2,0,SharePoint failed to process this item.
+752,-2147156704,2,0,The document has no security descriptor.
+753,-2147156703,2,0,"Crawling of this item failed, HTTP 504: Gateway Timeout. Try accessing the item using a browser on the crawl machine. If URL is accessible through the browser, it is possible that the crawl targets for that host are not configured correctly. Please contact the Host Administrator for assistance."
+754,-2147156448,2,0,Processing this item failed because of an unknown error when trying to parse its contents.
+755,-2147156447,2,0,Processing this item failed because the parser does not support the file type.
+756,-2147156446,2,0,Processing this item failed because the parser encountered problems reading the input.
+757,-2147156445,2,0,Processing this item failed because of an unknown error when trying to load the parser's configuration.
+758,-2147156444,2,0,Processing this item failed because of an unknown error when an Ifilter was trying to parse its contents.
+759,-2147156443,2,0,Processing this item failed because of a timeout when parsing its contents.
+760,-2147156442,2,0,Processing this item failed because of an initialization failure in the PDF parser.
+761,-2147156441,2,0,Processing this item failed because of an initialization failure in the HTML parser.
+762,-2147156440,2,0,Processing this item failed because of an initialization failure in the plain-text parser.
+763,-2147156439,2,0,Processing this item failed because of an initialization failure in the JPEG parser.
+764,-2147156438,2,0,Processing this item failed because of an initialization failure in the IFilter parser.
+765,-2147156437,2,0,Processing this item failed because of an initialization failure in the Word parser.
+766,-2147156436,2,0,Processing this item failed because of an initialization failure in the XML parser.
+767,-2147156435,2,0,Processing this item failed because of an initialization failure in the GIF parser.
+768,-2147156434,2,0,Processing this item failed because of an initialization failure in the PowerPoint parser.
+769,-2147156433,2,0,Processing this item failed because of a PDF parser error.
+770,-2147156432,2,0,Processing this item failed because of a HTML parser error.
+771,-2147156431,2,0,Processing this item failed because of a plain-text parser error.
+772,-2147156430,2,0,Processing this item failed because of a JPEG parser error.
+773,-2147156429,2,0,Processing this item failed because of a IFilter parser error.
+774,-2147156428,2,0,Processing this item failed because of a Word parser error.
+775,-2147156427,2,0,Processing this item failed because of a XML parser error.
+776,-2147156426,2,0,Processing this item failed because of a GIF parser error.
+777,-2147156425,2,0,Processing this item failed because of a PowerPoint parser error.
+778,-2147156424,2,0,Processing this item failed because the parser server ran out of memory.
+779,-2147156423,2,0,Processing this item failed because the parser could not recognize the content's encoding.
+780,-2147156422,2,0,Processing this item failed because the parsed output was greater than the maximum number of allowed characters (2 million).
+781,-2147156421,2,0,Processing this item failed because the parser found too many invalid characters in its contents.
+782,-2147156420,2,0,Processing this item failed because the parser could not recognize its file type.
+783,-2147156419,2,0,Processing this item failed because of an unknown error when trying to detect its file type.
+784,-2147156418,2,0,The processing of this item timed out in content processing.
+785,-2147156701,2,0,"This item was not indexed because its security information contains complex ACE types, which are not supported."
+786,-2147156700,2,0,The crawl account did not have sufficient privileges to access the security attributes of this file or folder. Ensure the crawl account has the 'Manage auditing and security log' privilege.
+787,-2147156699,2,0,SocialInfoExtractor Operator error in CTS flow.
+788,-2147156697,2,0,Could not access the Search Analytics Reporting database. A generic error occurred while trying to access the database to obtain the schema version info.
+789,-2147156696,2,0,The gatherer application could not be mounted because the Search Analytics Reporting store database schema version is greater than its target schema version and is not supported by the farm. One or more servers in the farm might need to be updated with the latest patch.
+790,-2147156695,2,0,The gatherer application could not be mounted because the Search Analytics Reporting store database schema version does not match the expected backwards compatibility schema version. The database might not have been upgraded.
+791,-2147156694,2,0,Processing the links for this item failed because the URI associated with it was empty.
+792,-2147156693,2,0,Processing the links for this item failed because the URI associated with it was invalid.
+793,-2147156692,2,0,Processing this item failed because the Search Service Application could not be located.
+794,-2147156691,2,0,Processing this item failed because no connection with the Link Database could be established. The item will be automatically retried later. The item was added to the content index and will be searchable.
+795,-2147156690,2,0,"Processing this item failed because the the insert in Link Database was aborted. For more details, see system log messages."
+796,-2147156689,2,0,Processing this item failed because the name of the Search Service Application could not be looked up.
+797,-2147156688,2,0,The item failed due to an error occurring in the configured external content processing enrichment web service (see details for service error code).
+798,-2147156687,2,0,The item failed due to an error occurring when sending or receiving data to the external content processing enrichment web service.
+799,-2147156686,2,0,The item could not be indexed successfully because one or more of the index components was in a bad state.
+800,-2147156685,2,0,"The item could not be indexed successfully because it had the following invalid properties: Operation, Document ID."
+801,-2147156684,2,0,The item could not be indexed successfully because one or more of the index partitions was not available for indexing.
+802,-2147156683,2,0,The item could not be indexed successfully because the item failed in the indexing subsystem.
+803,-2147156681,2,0,The item could not be indexed successfully because of an internal content processing error.
+804,-2147156680,2,0,The content processing component failed to retrieve the item blob from temporary storage.
+805,-2147156679,2,0,Unable to retrieve index system.
+806,-2147156678,2,0,SharePoint returned an empty response.
+807,-2147216896,2,0,"The crawler could not communicate with the server. Check that the server is available and that the firewall access is configured correctly. If the repository was temporarily unavailable, an incremental crawl will fix this error."
+808,-2147216895,2,1,The object was not found.
+809,-2147216894,2,0,The crawler could not get a response because the remote server does not support the functionality required to fulfill the request. This may be caused by the parameters passed in the address.
+811,-2147216891,2,1,"Access is denied. Verify that either the Default Content Access Account has access to this repository, or add a crawl rule to crawl this repository. If the repository being crawled is a SharePoint repository, verify that the account you are using has ""Full Read"" permissions on the SharePoint Web Application being crawled."
+812,-2147216890,2,0,The crawler could not communicate with the server. Check that the server is available and that the firewall access is configured correctly.
+813,-2147216889,2,0,You have been redirected to an address that does not exist. Check that the source address is redirecting to an accessible address.
+814,-2147216888,2,0,The item could not be accessed on the remote server because its address has an invalid syntax.
+815,-2147216887,2,0,This item could not be crawled because the crawler could not connect to the repository.
+816,-2147216879,2,0,The item will not be crawled because the Access Control List allows no one to read the item. Check that this is intended.
+817,-2147216878,2,0,"Search cannot crawl the item, because its Access Control List exceeded 64 KB. Check that the item has a valid Access Control List."
+818,-1073475044,2,0,The current access account does not have access to the source. To correct this problem specify a different access account or provide authentication information for this source.
+819,-1073475043,2,0,The profile import default access account is set to use the default content access account which has not been specified. To correct this problem change the profile import default access account or specify the default content access account.
+820,-1073475023,2,0,The repository has returned an unexpected response.
+821,-2147024690,2,0,The filename or extension is too long.
+822,-2147024858,2,0,Reached the end of the file.
+823,-2147024843,2,0,The network path was not found.
+824,-2147286775,2,0,The docfile has been corrupted.
+825,-2147024809,2,0,The parameter is incorrect.
+826,-2147352567,2,0,Exception occurred.
+827,-2147024713,2,0,Cannot create a file when that file already exists.
+828,-2130245369,2,0,The backend database of the remote SharePoint server might not be running. Try crawling the server again later.
+829,-2130246315,2,0,The backend database of the remote SharePoint server might not be running. Try crawling the server again later.
+830,-2130246341,2,0,The backend database of the remote SharePoint server might not be running. Try crawling the server again later.
+831,-2130246318,2,0,The crawler could not authenticate the certificate for the remote server. Try using the Fully Qualified Domain Name of the remote server as a start address.
+832,-2147024845,2,0,The item could not be crawled because the crawler did not receive a response from the remote server.
+833,-2147024773,2,0,The item could not be crawled because the Microsoft Single Sign-on service failed to connect to the backend database server.
+834,-2130575322,2,0,The SharePoint list pointed to by this URL does not exist. Verify that it can be accessed using an internet browser.
+835,-1072898046,2,0,The XML returned by the remote server is corrupt.
+836,-1072896766,2,0,The XML returned by the remote server is corrupt.
+837,-2130575340,2,0,One of the fields on the SharePoint List does not exist or has become corrupt.
+838,-2147012891,2,0,This item was not indexed because the URL for this item contained characters that are not valid.
+839,-2147221164,2,0,A component required for crawling this type of content is not registered with this application server. View the event logs for more information.
+840,-2147221005,2,0,A component required for crawling this type of content failed to load on this application server. View the event logs for more information.
+841,-1072894406,2,0,NULL
+842,-1072894405,2,0,NULL
+843,-1072894386,2,0,NULL
+844,-2147012866,2,0,NULL
+845,-2147012746,2,0,NULL
+846,-1072894419,2,0,NULL
+847,-1072894367,2,0,NULL
+848,-1072894403,2,0,NULL
+849,-2147024735,2,0,NULL
+850,-1072894402,2,0,NULL
+851,-1072894420,2,0,NULL
+852,-1072894430,2,0,NULL
+853,-1072894429,2,0,NULL
+854,-1072894460,2,0,NULL
+855,-2147024671,2,0,NULL
+856,-1072894421,2,0,NULL
+857,-1072894463,2,0,NULL
+858,-1073741819,2,0,NULL
+859,-2147467259,2,0,NULL
+860,-1072894426,2,0,NULL
+861,-2147024888,2,0,NULL
+862,-2147023441,2,0,NULL
+863,-2146232800,2,0,NULL
+864,-2147418113,2,0,NULL
+865,-2147024832,2,0,NULL
+866,-1072894363,2,0,NULL
+867,-2146232060,2,0,NULL

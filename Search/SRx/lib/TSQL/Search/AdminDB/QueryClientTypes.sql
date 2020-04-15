@@ -1,0 +1,1 @@
+SELECT [name] as ClientTypes FROM [**SEARCHADMIN**].[dbo].[MSSQLogClientType] WITH (nolock)

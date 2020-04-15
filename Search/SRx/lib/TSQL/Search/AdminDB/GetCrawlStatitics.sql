@@ -1,0 +1,1 @@
+exec [**SEARCHADMIN**].[dbo].[proc_MSS_GetCrawlStatistics] @Count = 100

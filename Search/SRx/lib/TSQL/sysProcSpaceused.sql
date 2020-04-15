@@ -1,0 +1,1 @@
+exec [**DBNAME**].[dbo].sp_Spaceused [**TABLENAME**]
