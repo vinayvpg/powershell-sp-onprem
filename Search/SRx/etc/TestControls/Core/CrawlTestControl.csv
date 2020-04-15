@@ -1,0 +1,4 @@
+"Rule","WriteToDashboard","AlertOnFailure"
+"Test-CrawlVisualizationData","true","true"
+"Test-CrawlFreshnessData","true","true"
+"Test-ContentSourceThresholds","true","true"

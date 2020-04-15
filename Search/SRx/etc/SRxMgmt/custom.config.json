@@ -1,0 +1,23 @@
+{
+    "Paths":  {
+                  "Log":  ".\\var\\log"
+              },
+    "Tmp":  {
+                "RetentionDays":  7,
+                "RetentionBytes":  629145600
+            },
+    "Override":  {
+                     "CrawlVisualizationQueryLimit":  100
+                 },
+    "RequiredModules":  [
+
+                        ],
+    "Log":  {
+                "Level":  "INFO",
+                "RetentionBytes":  629145600,
+                "ToFile":  true,
+                "RetentionDays":  90
+            },
+    "Product":  "SP2013",
+    "FarmId":  "3ad949de-c04d-437a-9f42-c297ea64111c"
+}

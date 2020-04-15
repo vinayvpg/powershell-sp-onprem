@@ -1,0 +1,2 @@
+"Rule","WriteToDashboard","AlertOnFailure"
+"Test-ThisTestThrowsAnException","true","true"

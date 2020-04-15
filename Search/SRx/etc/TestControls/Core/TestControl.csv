@@ -1,0 +1,12 @@
+Rule,WriteToDashboard,AlertOnFailure
+Test-SSAIsOnline,TRUE,FALSE
+Test-SSANotPaused,TRUE,FALSE
+Test-SSAEndPointSQSS,TRUE,FALSE
+Test-SSAEndPointAdminWeb,TRUE,FALSE
+Test-OSPingSearchServer,TRUE,FALSE
+Test-OSPingSQLServer,TRUE,FALSE
+Test-SSANoServerIdMismatch,TRUE,FALSE
+Test-SSANoTopoChangeOccurring,TRUE,FALSE
+Test-SSAHasMultiAdminComps,TRUE,FALSE
+Test-SSAAdminCompSync,TRUE,FALSE
+Test-SSAContentSourceSummary,TRUE,FALSE

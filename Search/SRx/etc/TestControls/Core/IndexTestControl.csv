@@ -1,0 +1,3 @@
+Rule,WriteToDashboard,AlertOnFailure
+Test-SSAIndexDiskReports,TRUE,TRUE
+Test-SSAIndexDocumentCount,TRUE,TRUE

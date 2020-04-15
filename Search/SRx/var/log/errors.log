@@ -1,0 +1,11 @@
+05/09/2018 23:21:26						ERROR	==============================================================
+05/09/2018 23:21:26						ERROR	Caught exception while evaluating Test-SSADatabaseSizingLimits
+05/09/2018 23:21:26						ERROR	Exception: You cannot call a method on a null-valued expression.
+05/09/2018 23:21:26						ERROR	--------------------------------------------------------------
+05/09/2018 23:21:26						ERROR	At E:\scripts\Infrastructure\Search\SRx\lib\Tests\Core\Test-SSADatabaseSizingLimits.ps1:57 char:5
++     $s = $Size.Trim()
++     ~~~~~~~~~~~~~~~~~
+05/09/2018 23:21:26						ERROR	System.Management.Automation.RuntimeException: You cannot call a method on a null-valued expression.
+   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)
+   at lambda_method(Closure , Object[] , StrongBox`1[] , InterpretedFrame )
+05/09/2018 23:21:26						ERROR	==============================================================

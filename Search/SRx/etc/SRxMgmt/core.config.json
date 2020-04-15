@@ -1,0 +1,29 @@
+{
+    "SRxTitle": "Search Health Reports (SRx)",
+    "SRxVersion": "2017.4.26.2",
+    "SRxHash": "F30B6D206FC8B8C7E39D2FDF169FB8E7AC84CEF05EEB74453367710FED7D1164",
+    "Paths": {
+        "Config": ".\\etc",
+        "Log": ".\\var\\log",
+        "Modules": ".\\Modules",
+        "Resources": ".\\lib",
+        "Scripts": ".\\lib\\Scripts",
+        "Tests": ".\\lib\\Tests",
+        "Tmp": ".\\var\\tmp",
+        "Tools": ".\\lib\\Tools",
+        "TSQL": ".\\lib\\TSQL"
+    },
+    "Log": {
+        "Level": "INFO",
+        "RetentionDays": 90,
+        "RetentionBytes": 629145600,
+        "ToFile": true
+    },
+    "UI": {
+        "MinHeight": 10000,
+        "MinWidth": 125
+    },
+    "PostInitScript": ".\\lib\\Scripts\\postSRxInitialization.ps1"
+}
+
+
