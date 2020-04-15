@@ -1,0 +1,13 @@
+WebUrl,ContentTypeName,ContentTypeParent,Description,Group,IncludedSiteColumns
+http://cthub.murphyoilcorp.com,BUS2081,Document,Incoming Invoice,ERP Link,Company Code; Invoice Doc Number; Fiscal Year; Status; Vendor Invoice Number; Vendor Number
+http://cthub.murphyoilcorp.com,BKPF,Document,Accounting Document,ERP Link,Company Code; Invoice Doc Number; Invoice Doc Date; Invoice Doc Type; Invoice Posting Date; Fiscal Year; External Reference Number
+http://cthub.murphyoilcorp.com,BUS2007,Document,Maintenance Order,ERP Link,Company Code; Order Number; Processing Group; Plant; Order Type
+http://cthub.murphyoilcorp.com,BUS2012,Document,Purchase Order,ERP Link,PO Number; Company Code; Vendor ID; Vendor Name; PO Doc Type; PO Doc Date; PO Purchased Group
+http://cthub.murphyoilcorp.com,BUS2042,Document,Financial Transaction,ERP Link,Transaction; Company Code; Transaction Type; Business Partner Number
+http://cthub.murphyoilcorp.com,BUS2080,Document,Service Notification,ERP Link,Notification Number; Notification Date; Notification Type; Maintenance Planning Plant
+http://cthub.murphyoilcorp.com,BUS2091,Document,Service entry sheet,ERP Link,Location; PO Number; Entry sheet number
+http://cthub.murphyoilcorp.com,FIPP,Document,Parked Document,ERP Link,Accounting Document Number; Document Status; Fiscal Year; Source Company Code; Document Type; Posting Date
+http://cthub.murphyoilcorp.com,BSEG,Document,Accounting Line Item,ERP Link,Company Code; Accounting Document Number; Fiscal Year; Number of Line Item; Clearing Date; Account Type
+http://cthub.murphyoilcorp.com,BUS2105,Document,Purchase Requisition,ERP Link,Purchase Requisition Number; Purchase Requisition Document Type; Purchasing Document Category; Item Number of Purchase Requisition
+http://cthub.murphyoilcorp.com,BUS2038,Document,Maintenance Notification,ERP Link,Company Code; Maintenance Plan; Maintenance Planning Plant; Notification Number; Cost Center; Equipment Number
+http://cthub.murphyoilcorp.com,LFA1,Document,Vendor Master General Data,ERP Link,Account Number of Vendor or Creditor; Vendor Account Group; Customer Name 1; Created On
